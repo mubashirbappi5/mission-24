@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+/* font family list */
+/* font-family: "Yeseva One", serif;
+font-family: "Lobster", sans-serif; */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgb(229, 229, 229);;
+    
+}
+.stay-focus{
+    width: 90%;
+    height: auto;
+   
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.focus-text h1{
+    font-size: 3.75rem;
+    color: #333333;
+    font-family: "Yeseva One", serif;
+
+}
+#mission{
+    color: #FFAD5A;
+}
+.focus-text p{
+    font-size: 1.25rem;
+    color: #3E3E3E;
+    margin-top: 15px;
+}
+.my-image{
+    max-width: 426px;
+}
+.my-image img{
+    width: 100%;
+}
+.btn{
+    background-color: #FF5959;
+    padding: 12px;
+    border-radius: 5px;
+    border:none ;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-top: 19px;
+}
+#Scroll{
+    font-size: 1rem;
+    color: #434343;
+    margin-top: 33px;
+}
+@media screen and (max-width:576px) {
+    .stay-focus{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
