@@ -13,7 +13,7 @@ body{
 .header{
     max-width: 1440px;
     margin: 0 auto;
-    background: rgb(229, 229, 229);;
+    background: rgb(229, 229, 229);
     
 }
 .stay-focus{
@@ -59,10 +59,69 @@ body{
     color: #434343;
     margin-top: 33px;
 }
+/* my mission */
+.my-mission{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 62px;
+    background: rgb(229, 229, 229);
+}
+.my-goal-mission{
+    width: 100%;
+    margin: 0 auto;
+}
+.my-goal-mission h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.my-mission-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.mission1{
+    width: 350px;
+    height: 376px;
+    border-radius: 26px;
+    background: #4F9DA61A;
+    
+}
+.mission1 img{
+    width: 50%;
+    margin-left: 5px;
+}
+.mission1 h4{
+    font-size: 1.5rem;
+    margin-left: 25px;
+    margin-top: 12px;
+    
+}
+.mission1 p{
+    font-size: 1rem;
+    margin-left: 25px;
+    margin-top: 16px;
+}
+#Vission{
+    background-color: #FF59591A;
+    padding-top: 10px;
+}
+#Goals{
+    background-color: #FFF4D6;
+    padding-top: 10px;
+
+}
+/* small device */
 @media screen and (max-width:576px) {
     .stay-focus{
         flex-direction: column;
         justify-content: center;
     }
+    .my-mission-card{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
     
 }
