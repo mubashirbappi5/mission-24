@@ -157,6 +157,52 @@ body{
 .shape img{
     width: 100%;
 }
+/* global-community */
+.global-community{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 100px;
+    background: rgb(229, 229, 229);
+
+}
+.community{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.community-text{
+    width: 50%;
+}
+.community-text h3{
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.community-text p{
+    font-size: 1rem;
+}
+.community-image{
+    width: 40%;
+    height: 400px;
+   
+    border-radius: 26px;
+    background: url(../images/pictures/project.png);
+    background-size: cover;
+    z-index: 1;
+}
+.shape2{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 1080.34px;
+top: 2010.45px;
+
+z-index: 0;
+}
+.shape2 img{
+    width: 100%;
+}
 /* small device */
 @media screen and (max-width:576px) {
     .stay-focus{
@@ -170,7 +216,7 @@ body{
         width: 100%;
     }
     .mission1{
-       max-width: 350px;
+       width: 90%;
        
         
     }
@@ -183,21 +229,25 @@ body{
 
     }
     .develop-text{
-        width: 100%;
+        width: 90%;
     }
-    .develop-text h3{
-        text-align: center;
-        font-size: 1.50rem;
-    }
-    .develop-text p{
-        text-align: center;
-        
-    }
-    .develop-text > .btn{
-      margin-left: 70px;
-    }
+    
+   
     .develop-image{
-        max-width: 300px;
+        width:90% ;
+    }
+    .shape, .shape2{
+        display: none;
+    }
+    .community{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .community-text{
+        width: 90%;
+    }
+    .community-image{
+        width: 90%;
     }
 
 }
