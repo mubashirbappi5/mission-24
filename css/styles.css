@@ -203,6 +203,86 @@ z-index: 0;
 .shape2 img{
     width: 100%;
 }
+/* apps */
+.apps{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgb(229, 229, 229);
+}
+.app-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+   gap: 500px;
+    height: 700px;
+    padding-left: 100px;
+}
+.app-head{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.app-text{
+    width: 40%;
+    margin-top: 181px;
+}
+.app-text h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.app-text p{
+    font-size: 1rem;
+}
+.head-c{
+    color: #FFAD5A;
+}
+.app-photo{
+    position: relative;
+    margin-top: 135px;
+}
+.image{
+    position: absolute;
+    width: 229px;
+    z-index: 1;
+}
+.image img{
+    width: 100%;
+}
+.opjcet-1{
+    position: absolute;
+    width: 147px;
+   height: 147px;
+   left: -36px;
+   top: -70px;
+}
+.opjcet-1 img{
+    width: 100%;
+}
+.opjcet-2, .opjcet-3{
+    width: 77px;
+    height: 77px;
+    
+   
+}
+.opjcet-2{
+    position: absolute;
+    left: -10px;
+    
+    top: 330px;
+    
+}
+.opjcet-3{
+    position: absolute;
+    left: 180px;
+    top: 260px;
+}
+.opjcet-2 img{
+    width: 100%;
+}
+.opjcet-3 img{
+    width: 100%;
+}
 /* small device */
 @media screen and (max-width:576px) {
     .stay-focus{
