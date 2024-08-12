@@ -283,6 +283,31 @@ z-index: 0;
 .opjcet-3 img{
     width: 100%;
 }
+/* footer */
+.footer{
+    max-width: 1440px;
+    height: 177px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h3{
+    font-size: 2.75rem;
+    font-weight: 700;
+    font-family:"Lobster", sans-serif ;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer p{
+    color:#D9DBE1;
+    font-size: 1rem;
+    text-align: center;
+}
+#head-2{
+    color: #FF5959;
+}
 /* small device */
 @media screen and (max-width:576px) {
     .stay-focus{
@@ -328,6 +353,15 @@ z-index: 0;
     }
     .community-image{
         width: 90%;
+    }
+    .app-container{
+        flex-direction: column;
+        gap: 300px;
+        height: auto;
+        padding-left: 20px;
+    }
+    .app-text{
+        width: 100%;
     }
 
 }
